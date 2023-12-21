@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: /home/ty9000/Documents/argocd
+    repoURL: https://github.com/Ty9000/nginx-test.git
     targetRevision: HEAD
     path: nginx2
   destination:
