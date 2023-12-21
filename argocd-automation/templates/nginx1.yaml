@@ -11,4 +11,6 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx1
-
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
